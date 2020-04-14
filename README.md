@@ -10,3 +10,11 @@ sudo ./check-zip-drive.sh /dev/sdX
 ```
 
 Where `/dev/sdX` is the block device for the Zip drive.  **The test will destroy any data on the disk in the drive.**  Some checks are in place to prevent running the test on non-Zip disks, but be careful!
+
+To wipe a Zip disk and reformat it as an MS-DOS formatted disk,
+
+```
+sudo ./wipe-zip-disk.sh /dev/sdX
+```
+
+This is, obviously, destructive to the data on the disk.

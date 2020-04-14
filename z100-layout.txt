@@ -1,0 +1,4 @@
+label: dos
+unit: sectors
+
+/dev/sdc4 : start=          32, size=      196576, type=6, bootable

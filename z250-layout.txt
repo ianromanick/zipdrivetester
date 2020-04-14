@@ -1,0 +1,6 @@
+label: dos
+label-id: 0xa1da014e
+device: /dev/sdb
+unit: sectors
+
+/dev/sdb4 : start=          32, size=      489440, type=6, bootable
